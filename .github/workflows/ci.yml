@@ -1,5 +1,5 @@
 name: code-quality
-on: [pull_request]
+on: [push]
 jobs:
   verify-code-quality:
     runs-on: ubuntu-latest
